@@ -1,17 +1,24 @@
 # Function that retrieves an object from a bucket in Object Storage using the OCI Java SDK
 
-In the previous step you passed in two parameters - file name and bucket name.
+In the previous step we passed in the `file name` and `bucket name` to 
+`fn invoke`. We also passed in the `namespace` using `fn config`.
 ```
 echo -n '{"name": "file1.txt", "bucketName":"mybucket"}' | fn invoke myapp oci-objectstorage-get-object-java
 ```
 
-In this step, let us use the file name and bucket name from the Cloud Event
- JSON - Object Storage Create Object event. 
+In this step, let us use the namespace, bucket name and file name from the 
+Cloud Event JSON - Object Storage Create Object event. 
 
-You can copy the Cloud Event JSON from the OCI Console > Events Service > 
+You can copy a dummy Cloud Event JSON from the OCI Console > Events Service > 
 Validate Rule.
 
 Here's an example [test-event.json](test-event.json).
+
+## Code
+
+Add the code to automatically bind the incoming Cloud Event JSON to a 
+java.util.Map in the handle() method. And get the namespace, bucket name and 
+file name from this Map.
 
 ## Deploy
 
