@@ -1,1 +1,1 @@
-This is a text file to test Step 5 of the lab! Congratulations!
+This is a text file to test Step 5 of our lab! Congratulations!
