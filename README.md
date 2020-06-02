@@ -23,3 +23,4 @@ an object store event triggered Java function
 
 5. How do I wire the function to an OCI Events rule to look at files uploaded 
  to a bucket? Hands-on: Participants to perform these steps
+    * [Step 5](Step-5)
