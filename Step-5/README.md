@@ -40,7 +40,7 @@ fn -v deploy --app myapp
 
 Make sure to enable "Emit Object Events" on your bucket.
 
-Upload a small text file in the bucket and check the function logs. You should
+Upload a small text file e.g. [test-file-upload.txt](test-file-upload.txt) in the bucket and check the function logs. You should
  see no errors. Also, you should see the real Cloud Event that was generated
  by the file upload event.
 

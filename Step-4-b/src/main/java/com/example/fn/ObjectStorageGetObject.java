@@ -76,7 +76,7 @@ public class ObjectStorageGetObject {
             result = new BufferedReader(new InputStreamReader(response.getInputStream()))
                     .lines().collect(Collectors.joining("\n"));
 
-            System.out.println("Finished reading content for object " + objectName);
+            System.out.println("Finished reading content for object " + result);
 
 //        } catch (Throwable e) {
 //            System.err.println("Error fetching object " + e.getMessage());
