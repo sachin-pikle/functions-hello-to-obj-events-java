@@ -18,8 +18,8 @@ an object store event triggered Java function
 4. How do I use a Cloud Event JSON in my function? How do I unit test my 
  function with a CloudEvent JSON? Hands-on: Participants to perform these 
  steps
-    * [Step 4-a](Step 4-a)
-    * [Step 4-b](Step 4-b)
+    * [Step 4-a](Step-4-a)
+    * [Step 4-b](Step-4-b)
 
 5. How do I wire the function to an OCI Events rule to look at files uploaded 
  to a bucket? Hands-on: Participants to perform these steps
